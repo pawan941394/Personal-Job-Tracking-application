@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_experimental.agents import create_pandas_dataframe_agent
-llm = ChatGoogleGenerativeAI(model="gemini-1.0-pro", google_api_key=st.secrets['api_key'], temperature=0.2)
+llm = ChatGoogleGenerativeAI(model="gemini-1.0-pro", google_api_key=st.secrets['gen_api_key'], temperature=0.2)
 
 def gen_ai(df, prompt):
     retries = 3
