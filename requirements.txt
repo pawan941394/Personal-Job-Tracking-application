@@ -1,0 +1,7 @@
+pandas
+streamlit
+firebase-admin
+google-cloud-firestore
+google-generativeai
+langchain
+langchain-google-genai
